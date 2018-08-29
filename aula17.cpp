@@ -37,5 +37,14 @@ int main(){
     aux[4] = 10;
     cout << aux[3] << endl;
 
+    int aux1[4];
+    cout << "Digite um número: ";
+    cin >> *(aux1);
+    cout << "Você digitou: " << aux1[0] << endl;
+
+    cout << "Digite outro número: ";
+    cin >> *(aux1 + 1);
+    cout << "Você digitou: " << aux1[1] << endl;
+
     return 0;
 }
