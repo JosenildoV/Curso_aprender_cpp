@@ -46,5 +46,13 @@ int main(){
     cin >> *(aux1 + 1);
     cout << "Você digitou: " << aux1[1] << endl;
 
+    //cout << "Voce digitou: " << aux1[2] << endl;
+
+    delete[] vet;
+    delete pvar;
+    vet = NULL;
+    pvar = NULL;
+    cout << "Desaloquei da memória o ponteiro vetor vet: " << vet << endl;
+    
     return 0;
 }
