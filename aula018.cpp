@@ -24,11 +24,12 @@ int main(){
     cin >> nome;
     int tam = strlen(nome);
 
-    char *p = &nome[tam];
+    char *p = &nome[tam+1];
 
     while(p != &nome[0]){
-        cout << *p;
         p--;
+        cout << *p;
+        
     }
     cout << endl;
 
